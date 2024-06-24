@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world-service
+  description: A simple repository with a Hello World script and documentation.
+  owner: code2k13
+  annotations:
+    github.com/project-slug: code2k13/temp_bs_01
+spec:
+  type: service
+  lifecycle: production
+  owner: code2k13
+  system: default
+  repository:
+    type: git
+    url: https://github.com/code2k13/temp_bs_01
+  definition: |
+    type: service
+    name: hello-world-service
+    owner: code2k13
+    description: A simple Hello World Python script.
+    repo: https://github.com/code2k13/temp_bs_01
+    system: default
+    lifecycle: production
+  documentation:
+    - type: docs
+      title: Documentation
+      path: /docs
+      url: https://github.com/code2k13/temp_bs_01/tree/main/docs
