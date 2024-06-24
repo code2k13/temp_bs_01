@@ -6,7 +6,7 @@ metadata:
   owner: code2k13
   annotations:
     github.com/project-slug: code2k13/temp_bs_01
-    backstage.io/techdocs-ref: url:https://github.com/code2k13/temp_bs_01/tree/main/docs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
