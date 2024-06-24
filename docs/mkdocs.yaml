@@ -1,0 +1,8 @@
+site_name: Test Site
+site_description: test site description
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
