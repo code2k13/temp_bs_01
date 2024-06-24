@@ -5,6 +5,7 @@ This repository contains information about various design patterns used in softw
 - [Singleton Pattern](singleton.md)
 - [Observer Pattern](observer.md)
 - [Factory Method Pattern](factory_method.md)
+- [Emoji Vid Gen Documentation](emoji_vid_gen.md)
 
 ## About
 
